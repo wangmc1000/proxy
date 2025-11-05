@@ -1,3 +1,3 @@
 #!/bin/bash
-unzip jre.zip
-nohup jre/bin/java -jar proxyClient.jar >client.log &
+nohup /content/proxy/jre/bin/java -jar /content/proxy/proxyClient.jar >/content/proxy/client.log &
+
